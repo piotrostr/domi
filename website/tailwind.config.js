@@ -1,5 +1,7 @@
-export const content = ['./index.html'];
-export const theme = {
-  extend: {},
+module.exports = {
+  content: ['./index.html'],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
 };
-export const plugins = [];
