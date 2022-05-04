@@ -37,15 +37,17 @@
     <div
       class="flex flex-col min-h-screen min-w-screen bg-black justify-around items-center"
     >
-      <div class="p-16 flex justify-center items-center">
+      <div class="p-6 md:p-16 flex justify-center items-center">
         <div
           class="flex flex-col-reverse items-center md:flex-row md:space-x-10"
         >
           <div class="flex flex-col text-yellow max-w-md text-justify">
-            <h1 class="text-6xl font-bold mb-14 mt-8 text-center md:text-left">
+            <h1
+              class="text-4xl md:text-6xl font-bold mb-14 mt-8 text-center md:text-left"
+            >
               Dominika Owczarek
             </h1>
-            <div class="text-xl">
+            <div class="text-lg md:text-xl">
               Being born and raised in Warsaw and having moved to Amsterdam for
               my studies, I do believe I was able to observe the best of both
               worlds - inimitable dynamics from the former and a certain
@@ -96,12 +98,6 @@
         <img height="700" width="500" src="static/bomba3.jpg" />
       </div>
     </div>
-    <div class="bg-yellow text-black p-8 flex justify-center">
-      <div class="flex flex-col mx-auto w-1/4">
-        <h1 class="text-4xl font-bold self-end">What could I bring</h1>
-        <h1 class="text-3xl font-medium self-start">to a company?</h1>
-      </div>
-    </div>
     <div class="flex bg-black p-14 justify-center w-screen">
       <div class="flex flex-col max-w-3xl w-full">
         <img
@@ -111,20 +107,18 @@
         <div class="flex md:flex-row flex-col">
           <div class="flex flex-col md:flex-row md:relative">
             <div
-              class="bg-yellow text-black p-8 z-20 flex flex-col h-max w-full"
+              class="bg-yellow text-black p-8 z-20 flex flex-col h-max w-full items-center"
             >
               <h3
-                class="text-2xl md:text-4xl mb-2 font-bold md:absolute md:top-50 md:right-0 md:text-yellow"
+                class="text-2xl md:text-4xl mb-2 font-bold md:absolute md:top-50 md:right-0 md:text-yellow text-center max-h-64 w-1/2"
               >
-                Strong social skills
+                Matthew's designs for Central Saint Martins
               </h3>
-              <p class="text-sm md:text-xl w-64">
-                My well-developed interpersonal skills, helped me obtain a job
-                at a summer camp in England as an Activity Leader. This may seem
-                like having little in common with being a Marketing and
-                Communication at first, but it did require a similar set of
-                skills. Being able to make and maintain contact with people,
-                regardless of their age and origin is just one example of this.
+              <p class="text-sm md:text-xl w-64 text-center">
+                The best part of this hobby is that I never know where it's
+                going to take me. In this particular case, we followed the
+                camera all the way into the woods in the middle of a Polish
+                village to photograph my friends newly designed garments.
               </p>
             </div>
             <img
@@ -137,7 +131,7 @@
       </div>
     </div>
     <div
-      class="bg-yellow flex flex-col md:justify-center md:space-x-9 p-8 md:flex-row"
+      class="bg-yellow flex flex-col justify-center items-center md:space-x-9 p-8 md:flex-row"
     >
       <div class="text-justify max-w-md text-xl">
         I am currently an International Business Administration student at the
@@ -145,21 +139,31 @@
         <strong>photography and editing as my creative funnel,&nbsp;</strong>
         to which I dedicate most of my free time.
       </div>
-      <div class="flex md:items-center">*</div>
+      <div class="flex md:items-center justify-center my-5 md:my-0">*</div>
       <div class="text-justify max-w-md text-xl">
         That, for example, gave me a chance to work with an Amsterdam based
         clothing boutique, Velour, for whom as a part of their garment
-        <strong>promotion on social media</strong>, predominantly on Instagram.
+        <strong>promotion on social media,</strong> I converted my balcony into
+        an impromptu photo studio.
       </div>
     </div>
-    <div class="bg-black flex flex-row overflow-x-auto p-16 space-x-8 relative">
-      <h4 class="absolute text-yellow font-bold text-3xl">A HOME PHOTOSHOOT</h4>
-      <img height="700" width="500" src="static/domna1.jpg" />
-      <img height="700" width="500" src="static/domna2.jpg" />
-      <img height="700" width="500" src="static/domna3.jpg" />
-      <h4 class="absolute text-yellow font-bold text-3xl bottom-0 right-0">
-        I do have a drivers licence :)
-      </h4>
+    <div class="overflow-x-auto">
+      <div class="bg-black flex flex-row p-16 space-x-8 relative w-max">
+        <h4 class="absolute text-yellow font-bold text-3xl">HOME PHOTOSHOOT</h4>
+        <img height="700" width="500" src="static/domna1.jpg" />
+        <video
+          id="vid2"
+          height="700"
+          width="500"
+          style="object-fit: cover"
+          muted
+          autoplay
+          loop
+        >
+          <source src="static/vid2.mp4" type="video/mp4" />
+        </video>
+        <img height="700" width="500" src="static/domna2.jpg" />
+      </div>
     </div>
     <div class="bg-yellow flex justify-center">
       <div class="text-justify max-w-xl p-12 text-xl">
@@ -173,21 +177,10 @@
       <img height="700" width="500" src="static/bomba4.jpg" />
       <img height="700" width="500" src="static/bomba5.jpg" />
       <img height="700" width="500" src="static/bomba6.jpg" />
-      <div class="absolute text-yellow font-bold text-3xl top-10">
-        JOINING THE TEAM WOULD BE
-        <h4 class="ml-24">AN EXCELLENT OPPORTUNITY TO</h4>
-        <h4 class="ml-48">GAIN HANDS-ON EXPERIENCE</h4>
-      </div>
-      <div class="absolute text-yellow font-bold text-3xl bottom-1/2 right-1/2">
-        <h4 class="ml-64">A GREAT ADVENTURE</h4>
-      </div>
       <div
-        class="absolute text-yellow font-bold text-3xl right-0 top-3/4 max-w-md"
+        class="absolute text-yellow font-bold text-xl md:text-3xl bottom-3/4 md:bottom-1/2 right-1/2"
       >
-        <p>I AM</p>
-        <h4>
-          DETERMINED TO WORK MY HARDEST TO CONTRIBUTE TO THE TEAM’S SUCCESS
-        </h4>
+        <h4 class="ml-64">A GREAT ADVENTURE</h4>
       </div>
     </div>
   </body>
