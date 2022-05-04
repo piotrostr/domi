@@ -10,3 +10,8 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+#filter-yellow {
+  filter: invert(97%) sepia(17%) saturate(3949%) hue-rotate(319deg)
+    brightness(120%) contrast(108%);
+}
