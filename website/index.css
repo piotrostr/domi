@@ -48,6 +48,10 @@ div {
   font-family: "Didot", sans-serif;
 }
 
+#roundhand {
+  font-family: "SnellRoundhand", sans-serif !important;
+}
+
 a {
   text-decoration: none;
   color: inherit;
